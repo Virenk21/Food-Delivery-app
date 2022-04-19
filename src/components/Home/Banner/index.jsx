@@ -1,11 +1,14 @@
 import React from 'react';
 import './style.css';
+import bannerImg from './banner.png';
 
 const Banner = () => {
   return (
-    <div>
-        <h1>Banner</h1>
-    </div>
+   <header>
+<div className='header-content'></div>
+<img src={bannerImg} alt="banner" className='header-logo' />'
+
+   </header>
   )
 }
 

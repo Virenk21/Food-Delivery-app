@@ -1,0 +1,43 @@
+header {
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 0.7rem 0 0 0;
+    height: 100vh;
+}
+
+.header-img {
+    width: 100%;
+    align-self: center;
+}
+.header-content {
+    display: flex;
+    flex-direction: column;
+}
+.content-main {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    justify-content: center;
+}
+content-main h1 {
+    font-size: 3rem;
+    margin-bottom: 1.5rem;
+}
+.content-main button {
+    background: #000;
+    color: #fff;
+    width: 200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 1.5rem;
+    outline: none;
+    border: none;
+    font-size: 1rem;
+    border-bottom-left-radius: 25px;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    cursor: pointer;
+    margin-top: 2.5rem;
+}

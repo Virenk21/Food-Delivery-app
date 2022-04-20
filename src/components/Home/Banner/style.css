@@ -4,6 +4,7 @@ header {
     grid-template-columns: 1fr 1fr;
     padding: 0.7rem 0 0 0;
     height: 100vh;
+    line-height: 3em;
 }
 
 .header-img {
@@ -40,4 +41,16 @@ content-main h1 {
     border-top-right-radius: 25px;
     cursor: pointer;
     margin-top: 2.5rem;
+    }
+.content-main p {
+    font-weight: 500;
 }
+
+
+
+
+
+
+
+
+

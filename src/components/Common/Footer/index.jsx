@@ -3,10 +3,13 @@ import './style.css';
 
 const Footer = () => {
   return (
-    <div>
-      <h1>Footer</h1>
-    </div>
+    <footer>
+      <p>We're a team of Professional cooks who are excited about their food,
+        amazing skills and expertiness in cooking.
+        </p>
+      <p1> Viren Corporation © 2022 </p1>
+    </footer>
   )
 }
 
-export default Footer
+export default Footer;

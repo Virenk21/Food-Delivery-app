@@ -1,4 +1,5 @@
 import React from 'react';
+import ButtonAddRemoveItem from '../../ButtonAddRemoveItem';
 import './style.css';
 
 const MenuItem = ({item}) => {
@@ -9,15 +10,16 @@ const MenuItem = ({item}) => {
         <div className='item-head_desc'>
         <p className='head_desc-name'>{name}</p>
         <p className='head_desc-info'>
-          <small>{info}</small>
-        </p>
+          <small>{info}</small></p>
     </div>
+    
     <div className='item-foot_desc'>
         <span className='foot_desc-price'>₹{price}</span>
-        <button>Add +</button>
+        <ButtonAddRemoveItem quantity={10}/>
+    </div>
     </div>
 
-    </div>
+    
 
   )
 }

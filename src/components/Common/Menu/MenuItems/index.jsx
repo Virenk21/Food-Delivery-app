@@ -1,4 +1,5 @@
-import React from 'react'
+import React from 'react';
+import './style.css';
 
 const MenuItem = ({item}) => {
     const { id, name, info, price, img }=item

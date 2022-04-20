@@ -6,7 +6,7 @@ const Menu = () => {
   return (
    <main>
     {menuItemsData.map((item) => (
-      <MenuItem item={item} />
+      <MenuItem key={item.id} item={item} />
     ))}
 
    </main>

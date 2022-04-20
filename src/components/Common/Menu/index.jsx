@@ -1,10 +1,14 @@
 import React from 'react';
+import { menuItemsData } from './data';
 import './style.css';
 const Menu = () => {
   return (
-    <div>
-        <h1>Menu</h1>
-    </div>
+   <main>
+    {menuItemsData.map((item) => (
+      <p>{item.name}</p>
+    ))}
+
+   </main>
   )
 }
 

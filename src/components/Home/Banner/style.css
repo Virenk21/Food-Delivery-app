@@ -46,6 +46,22 @@ content-main h1 {
     font-weight: 500;
 }
 
+@media (max-width: 768px) {
+    .content-main h1 {
+        font-size: 1.2rem;
+        margin-bottom: 1rem;
+    }
+    .content-main p {
+    font-size: 0.8rem;
+    }
+    .content-main button {
+        font-size: 0.8rem;
+        width: 150px;
+        padding: 0.5rem 1rem;
+        margin-top: 1.5rem;
+    }
+
+}
 
 
 

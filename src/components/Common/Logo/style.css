@@ -1,0 +1,22 @@
+.header-content_logo {
+    min-width: fit-content;
+}
+.header-content_logo img {
+    width: 1.5rem;
+    margin-right: 1.4rem;
+}
+.header-content_logo > div {
+    display: flex;
+    align-items: center;
+    margin-top: -32px;
+}
+.header-content_logo  p {
+    font-size: 0.8rem;
+    margin-left: -4.8rem;
+    margin-top: 35px;
+}
+
+.header-content_logo span {
+    margin-left: -1.0rem;
+
+}

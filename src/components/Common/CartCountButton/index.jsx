@@ -1,11 +1,14 @@
 import React from 'react'
 import './style.css'
 
-const CartCountButton = () => {
+const CartCountButton = ({cartCount}) => {
   return (
-    <div>
-        <h1>CartCountButton</h1>
-        </div>
+    <div className='btnCartCount'>
+      <div className='count'>{cartCount >= 100 ? '99+' : cartCount}</div>
+       <i class='fas fa-shopping-cart'></i>
+
+      </div>
+  
   )
 }
 

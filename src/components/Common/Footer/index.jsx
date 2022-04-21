@@ -1,4 +1,5 @@
 import React from 'react';
+import Logo from '../Logo';
 import './style.css';
 
 const Footer = () => {
@@ -8,6 +9,7 @@ const Footer = () => {
         amazing skills and expertiness in cooking.
         </p>
       <p1> Viren Corporation © 2022 </p1>
+      
     </footer>
   )
 }

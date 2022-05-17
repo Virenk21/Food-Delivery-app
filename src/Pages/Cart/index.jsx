@@ -8,7 +8,8 @@ import { menuItemsData } from '../../components/Common/Menu/data'
 const Cart = () => {
   return (
      <>
-    <Logo />
+     <Logo />
+     
     <EmptyCart />
  
      <div className='orders'>

@@ -7,7 +7,7 @@ const Footer = () => {
       <p>We're a team of Professional cooks who are excited about their food,
         amazing skills and expertiness in cooking.
         </p>
-      <p1> Viren Corporation © 2022 </p1>
+      <p1> Viren Corporation © 2021-2022 </p1>
       
     </footer>
   )

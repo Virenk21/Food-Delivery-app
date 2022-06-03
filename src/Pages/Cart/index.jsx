@@ -13,11 +13,11 @@ const Cart = () => {
     <EmptyCart />
  
      <div className='orders'>
-          <h1 className='orders-heading'>Your Orders</h1>
+          <h1 className='orders-heading'>YOUR ORDERS</h1>
           <div className='orders-menu'></div>
           <Menu list={menuItemsData} />
           </div>
-          <h3 className='orders-total'>Your Total ₹{35}</h3>
+          <h3 className='orders-total'>YOUR TOTAL ₹{35}</h3>
            <Footer />
         </>  
    )

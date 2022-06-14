@@ -17,7 +17,7 @@ const Cart = () => {
           <div className='orders-menu'></div>
           <Menu list={menuItemsData} />
           </div>
-          <h3 className='orders-total'>YOUR TOTAL ₹{65}</h3>
+          <h3 className='orders-total'>YOUR TOTAL ₹{55}</h3>
            <Footer />
         </>  
    )

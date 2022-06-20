@@ -9,7 +9,7 @@ const Footer = () => {
         </p>
       <p1> Viren Corp Pvt Ltd. © 2021-2022<p1>
 
-      </p1> All rights reserved to Retail-mart Pvt Ltd.</p1>
+      </p1> All rights reserved to **Retail-mart Pvt Ltd.**</p1>
     
       
     </footer>

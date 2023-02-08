@@ -10,7 +10,7 @@ const Banner = () => {
 <div className='header-content'>
   <Logo />
   <div className="content-main">
-    <h1>Delicious food for your cravings</h1>
+    <h1>DDDDDDDDDDDDDelicious foods for your cravings</h1>
     <p>We made fresh and healty meals with different receipes</p>
     <button>View Menu<i className='fas fa-long-arrow-alt-right' ></i>
     </button>
